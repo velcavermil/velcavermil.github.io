@@ -1,3 +1,12 @@
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.5); /* Warna putih dengan transparansi */
+    padding: 5px 10px; /* Ukuran padding lebih kecil */
+    border-radius: 5px; /* Sudut melengkung opsional */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    max-width: 30%; /* Membatasi lebar kotak */
+    margin: 0 auto; /* Pusatkan di tengah slide */
+  }
+
 #lokasi {
     padding: 40px 20px;
     background-color: #f9f9f9;
@@ -27,7 +36,7 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
 }
 
@@ -54,11 +63,10 @@ iframe {
     margin-top: 15px;
 }
 
-table {
+.tables {
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
-    background-color: #9f9c9a;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -100,3 +108,193 @@ iframe {
 #footer .social li a:hover {
     background-color: #20b455; /* Darker green on hover */
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .carde {
+    width: 190px;
+    background: #00ffa0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+  }
+
+  .pricing-block-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .pricing-plan {
+    color: #05060f;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .price-value {
+    display: flex;
+    color: #05060f;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+  
+  .pricing-note {
+    opacity: 0.8;
+  }
+
+  .check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.check-list-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+  .check-list-item svg {
+    margin-right: 10px;
+  }
+  .bungee-spice-regular {
+    font-family: "Bungee Spice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+        /* Reset dasar */
+        .bodys {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Kontainer form */
+        .forms {
+            background-color: #9f9c9a;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #80C4E9;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px 0;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffffff;
+            color: white;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: #80C4E9;
+            color: white;
+        }
+
+        input[type="reset"] {
+            background-color: #ff6363;
+            color: white;
+            margin-left: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        a {
+            color: #80C4E9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .checkbox-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Responsivitas */
+        @media (max-width: 400px) {
+            .forms {
+                padding: 15px;
+            }
+
+            input[type="submit"],
+            input[type="reset"] {
+                width: 48%;
+                margin: 5px 1%;
+            }
+        }
+
+          
